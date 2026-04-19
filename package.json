@@ -11,7 +11,7 @@
     "lint": "tsc --noEmit",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -f"
+    "deploy": "gh-pages -d dist -b deploy-branch --clean"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
